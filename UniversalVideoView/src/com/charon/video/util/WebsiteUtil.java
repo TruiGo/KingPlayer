@@ -51,29 +51,14 @@ public class WebsiteUtil {
         if (webSites == null) {
             return null;
         }
-        webSites.add(new WebSite("凤凰卫视",
-                "http://live.3gv.ifeng.com/hongkong.m3u8", R.drawable.logo_fenghuangweishi));
-        webSites.add(new WebSite("CCTV13",
-                "http://live.3gv.ifeng.com/cctv13.m3u8", R.drawable.logo_cctv13));
-        webSites.add(new WebSite("天津卫视",
-                "http://live.3gv.ifeng.com/CQWS.m3u8", R.drawable.logo_tianjingtv));
         webSites.add(new WebSite(
                 "韩KBS高清",
                 "http://news24kbs-2.gscdn.com/news24_300/_definst_/news24_300.stream/playlist.m3u8",
                 R.drawable.logo_kbstv));
-//        webSites.add(new WebSite("凤凰资讯",
-//                "http://live.3gv.ifeng.com/zixun.m3u8",
-//                R.drawable.logo_fenghuangzixun));
+
         webSites.add(new WebSite("韩WOWNet",
                 "http://wowmlive.shinbnstar.com:1935/live2/wowtv/playlist.m3u8",
                 R.drawable.logo_wownettv));
-//        webSites.add(new WebSite("深圳卫视",
-//                "http://live.3gv.ifeng.com/SZWS.m3u8", R.drawable.logo_shenzhen));
-//        webSites.add(new WebSite("安徽卫视",
-//                "http://live.3gv.ifeng.com/ZJWS.m3u8", R.drawable.logo_anhui));
-//        webSites.add(new WebSite("东方卫视",
-//                "http://live.3gv.ifeng.com/DFWS.m3u8", R.drawable.logo_dongfang));
-
         return webSites;
     }
 
